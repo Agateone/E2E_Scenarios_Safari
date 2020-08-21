@@ -28,9 +28,10 @@ public class Successful_transaction_from_authoirse_charge_notice {
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		 System.out.println("Safari driver initialised");
+		
 		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
-    	driver= new ChromeDriver();   	
+    	driver= new ChromeDriver(); 
+    	System.out.println("SafariDriver was started successfully.");
     	driver.get("https://cornwallreports.co.uk/cruel-december-radio-cornwall-back-in-the-doldrums-as-audience-figures-surrender-to-gravity/");
 		Thread.sleep(6000);
 		JavascriptExecutor js = (JavascriptExecutor)driver;

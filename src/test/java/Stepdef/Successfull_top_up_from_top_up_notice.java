@@ -33,9 +33,10 @@ public class Successfull_top_up_from_top_up_notice {
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
-		 System.out.println("Safari driver initialised");
+		 
 		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
-		driver= new ChromeDriver();   	
+		driver= new ChromeDriver();  
+		System.out.println("SafariDriver was started successfully.");
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
         Assert.assertTrue(true);
         Thread.sleep(20000);

@@ -23,9 +23,10 @@ public class Successfull_Auto_Top_Up {
 	 @Given("I register on maidenhead with auto top up ON")
 	
 	public void I_register_on_maidenhead_with_auto_top_up_ON() throws InterruptedException {
-		 System.out.println("Safari driver initialised");
+	
 		 System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
-    	driver= new ChromeDriver();   	
+    	driver= new ChromeDriver();  
+    	System.out.println("SafariDriver was started successfully.");
     	driver.get("https://www.maidenhead-advertiser.co.uk/news/remember-when/152676/remember-when-neighbours-star-draws-a-crowd-and-protests-over-m4-widening.html");
 		Thread.sleep(10000);
         
