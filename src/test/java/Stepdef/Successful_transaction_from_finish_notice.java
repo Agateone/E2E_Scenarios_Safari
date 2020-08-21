@@ -23,6 +23,7 @@ public class Successful_transaction_from_finish_notice {
 	 @Given("I am a new user")
 	
 	public void i_am_a_new_user() throws InterruptedException {
+		 System.out.println("Safari driver initialised");
 		System.setProperty("webdriver.chrome.driver","C:/Users/Administrator/Desktop/chromedriver.exe");		
     	driver= new ChromeDriver();   	
     	driver.get("https://popbitch.com/2019/10/iv-art-of-the-dyl/");
