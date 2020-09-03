@@ -36,9 +36,9 @@ public class Successful_voucher_with_top_up {
 	 @Test(priority=2)
 	@When("I reg and add a voucher with top up ")	
 	public void i_reg_and_add_a_voucher_with_top_up() throws InterruptedException, IOException {
-		 String parentWindowHandler = driver.getWindowHandle();
+		// String parentWindowHandler = driver.getWindowHandle();
 		 Thread.sleep(4000);
-		PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
+	/*	PopbitchFirstUseNoticeElements w1 = new PopbitchFirstUseNoticeElements(driver);
         w1.Click_On_Popbitch_First_Use_Notice_Create_Wallet();
         Assert.assertTrue(true);
          
@@ -70,7 +70,7 @@ public class Successful_voucher_with_top_up {
 	String actual_balance="15.00";
 	Assert.assertEquals(your_balance, actual_balance);	
 	Thread.sleep(4000);		
-	P1.Click_On_popbitch_wallet_Top_up();
+	P1.Click_On_popbitch_wallet_Top_up();*/
 	}
 
 	 @Test(priority=3)
